@@ -1,3 +1,10 @@
 table,th,td{
 	border:2px solid;
 }
+
+#table1{
+	position:absolute;
+	transform:transaction(-50%,-50%);
+	left:45%;
+	background-color:#cce6ff;
+}
