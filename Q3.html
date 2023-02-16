@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="Q3style.css">
+	
+	<title>Q3</title>
+</head>
+
+<body>
+	<div>
+		<form>
+			<label for="decimal">Enter Decimal Number:</label><br>
+			<input id="decimal" type="number" name="decimal"><br>
+			<input id="btn1" type="button" name="submit" onClick="setValues()" value="Submit">
+			<input id="btn2" type="button" name="reset" onClick="resetValue()" value="reset"><br>
+			<label for="binary">Binary Number:</label><br>
+			<textarea id="binary" name="binary" rows="2" cols="30"></textarea><br>
+			<label for="hex">Hex Number:</label><br>
+			<textarea id="hex" name="hex" rows="2" cols="30"></textarea><br>
+			<label for="octal">Octal Number:</label><br>
+			<textarea id="octal" name="octal" rows="2" cols="30"></textarea><br>
+		</form>
+	</div>
+	
+	
+	<script type="text/javascript">
+		
+		function setValues(){
+			let dec=parseInt(document.getElementById("decimal").value);
+			let binary=dec.toString(2);
+			let octa=dec.toString(8);
+			let hex=dec.toString(16);
+			document.getElementById("binary").textContent=binary;
+			document.getElementById("hex").textContent=hex;
+			document.getElementById("octal").textContent=octa;
+		}
+		
+		function resetValue(){
+			document.getElementById("binary").textContent="";
+			document.getElementById("hex").textContent="";
+			document.getElementById("octal").textContent="";
+			documrnt.getElementById("decimal").innerHTML="";
+		}
+	</script>
+	
+</body>
+
+</html>

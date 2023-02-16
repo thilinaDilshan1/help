@@ -1,0 +1,11 @@
+div{
+	border:2px solid black;
+	background-color:#cce6ff;
+	padding:20px;
+	width:250px;
+}
+
+#btn1{
+	margin-bottom:5px;
+	margin-top:10px;
+}
