@@ -1,0 +1,24 @@
+<br> - line break
+<i> - italic
+<sup>/<sub> - superscript/subscript
+<kbd> - mono
+<pre> - align in correct format
+<ul style="list-style-type: square">
+		(square - filled square
+		circle - unfilled circle
+		disc - filled circle)
+		
+<ol style="list-style-type: upper-roman">
+		decimal
+		decimal-leading-zero
+		lower-roman
+		upper-roman
+		lower-alpha
+		upper-alpah
+		none
+		
+		<ol start="3">
+
+JS
+ onMouseOver/onMouseOut
+ 
